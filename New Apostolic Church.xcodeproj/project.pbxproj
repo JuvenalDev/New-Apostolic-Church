@@ -11,6 +11,8 @@
 		A3742DED266791EA00741717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3742DEC266791EA00741717 /* ContentView.swift */; };
 		A3742DEF266791FE00741717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3742DEE266791FE00741717 /* Assets.xcassets */; };
 		A3742DF2266791FE00741717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3742DF1266791FE00741717 /* Preview Assets.xcassets */; };
+		A3742DFD2667994200741717 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3742DFC2667994100741717 /* HomeView.swift */; };
+		A3742DFF2667AD0400741717 /* WordOfTheMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3742DFE2667AD0400741717 /* WordOfTheMonthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A3742DEE266791FE00741717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3742DF1266791FE00741717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3742DF3266791FE00741717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3742DFC2667994100741717 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A3742DFE2667AD0400741717 /* WordOfTheMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordOfTheMonthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		A3742DE9266791E900741717 /* New Apostolic Church */ = {
 			isa = PBXGroup;
 			children = (
+				A3742DF92667931A00741717 /* Views */,
 				A3742DEA266791EA00741717 /* New_Apostolic_ChurchApp.swift */,
 				A3742DEC266791EA00741717 /* ContentView.swift */,
 				A3742DEE266791FE00741717 /* Assets.xcassets */,
@@ -67,6 +72,16 @@
 				A3742DF1266791FE00741717 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3742DF92667931A00741717 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3742DFC2667994100741717 /* HomeView.swift */,
+				A3742DFE2667AD0400741717 /* WordOfTheMonthView.swift */,
+			);
+			name = Views;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3742DFD2667994200741717 /* HomeView.swift in Sources */,
 				A3742DED266791EA00741717 /* ContentView.swift in Sources */,
+				A3742DFF2667AD0400741717 /* WordOfTheMonthView.swift in Sources */,
 				A3742DEB266791EA00741717 /* New_Apostolic_ChurchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
