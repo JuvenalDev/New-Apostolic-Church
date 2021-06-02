@@ -2,7 +2,7 @@
 //  HomeView.swift
 //  New Apostolic Church
 //
-//  Created by Juvenal Lunguenda on 6/2/21.
+//  Created by Juvenal Carlos Lunguenda on 6/2/21.
 //
 
 import SwiftUI
@@ -18,7 +18,7 @@ struct HomeView: View {
             VStack{
 
                 VStack {
-                    //Search Section
+
                     HStack(spacing: 15) {
 
                         TextField("Procurar Comunidades", text : $search)
