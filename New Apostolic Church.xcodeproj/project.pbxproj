@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A33488CB267003930057D331 /* MusicBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33488CA267003920057D331 /* MusicBookView.swift */; };
+		A33488CD267007D40057D331 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33488CC267007D30057D331 /* CustomView.swift */; };
 		A3742DEB266791EA00741717 /* New_Apostolic_ChurchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3742DEA266791EA00741717 /* New_Apostolic_ChurchApp.swift */; };
 		A3742DED266791EA00741717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3742DEC266791EA00741717 /* ContentView.swift */; };
 		A3742DEF266791FE00741717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3742DEE266791FE00741717 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A33488CA267003920057D331 /* MusicBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBookView.swift; sourceTree = "<group>"; };
+		A33488CC267007D30057D331 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		A3742DE7266791E900741717 /* New Apostolic Church.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Apostolic Church.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3742DEA266791EA00741717 /* New_Apostolic_ChurchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Apostolic_ChurchApp.swift; sourceTree = "<group>"; };
 		A3742DEC266791EA00741717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				A3742DFC2667994100741717 /* HomeView.swift */,
 				A3742DFE2667AD0400741717 /* WordOfTheMonthView.swift */,
+				A33488CA267003920057D331 /* MusicBookView.swift */,
+				A33488CC267007D30057D331 /* CustomView.swift */,
 			);
 			name = Views;
 			path = "New Group";
@@ -154,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3742DFD2667994200741717 /* HomeView.swift in Sources */,
+				A33488CB267003930057D331 /* MusicBookView.swift in Sources */,
 				A3742DED266791EA00741717 /* ContentView.swift in Sources */,
+				A33488CD267007D40057D331 /* CustomView.swift in Sources */,
 				A3742DFF2667AD0400741717 /* WordOfTheMonthView.swift in Sources */,
 				A3742DEB266791EA00741717 /* New_Apostolic_ChurchApp.swift in Sources */,
 			);

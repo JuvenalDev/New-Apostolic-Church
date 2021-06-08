@@ -15,6 +15,12 @@ struct WordOfTheMonthView: View {
     var body: some View {
         NavigationView {
             VStack{
+
+            Image("wOfMonth_top")
+                .renderingMode(.original)
+                .resizable()
+                .scaledToFit()
+
             Text(wordOfMonthTitle )
                 .bold()
                 .padding()
@@ -27,8 +33,6 @@ struct WordOfTheMonthView: View {
                     .foregroundColor(.black)
                     .bold()
                     .padding(10)
-                    //.background(Color.gray)
-                    //.opacity(0.8)
                     .cornerRadius(20, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                     .padding(10)
 

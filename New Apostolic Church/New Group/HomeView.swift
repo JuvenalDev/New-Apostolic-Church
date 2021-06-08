@@ -10,34 +10,16 @@ import SwiftUI
 struct HomeView: View {
 
     @State var search = ""
+    @State var searchDescription = "Procurar Comunidades..."
     @State var activePressedColor = false
     @State var selectedMenu:String? = ""
 
     var body: some View {
         NavigationView {
             VStack{
-
                 VStack {
 
-                    HStack(spacing: 15) {
-
-                        TextField("Procurar Comunidades", text : $search)
-
-                        Button(action: {
-
-                        }, label: {
-
-                            Image(systemName: "magnifyingglass")
-                                .foregroundColor(.gray)
-
-                        })
-
-                    }
-                    .padding(.horizontal)
-                    .padding(.vertical,10)
-                    .background(Color.black.opacity(0.06))
-                    .clipShape(Capsule())
-                    .padding(.horizontal)
+                 CustomSearchBar(searchText: $search, searchDescription: $searchDescription)
 
                     Image("inaLogo")
                         .resizable()
@@ -74,7 +56,7 @@ struct HomeView: View {
                     .cornerRadius(10)
 
                     NavigationLink(
-                        destination: Text("Hinário ") ,
+                        destination: MusicBookView() ,
                         tag: "musicBook",
                         selection: self.$selectedMenu)
                     {
